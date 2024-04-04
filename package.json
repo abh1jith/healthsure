@@ -1,0 +1,77 @@
+{
+  "name": "healthsure",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "https://pages.github.iu.edu/IU-Spring2023/healthsure-frontend/",
+  "dependencies": {
+    "@cometchat-pro/chat": "^3.0.11",
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@fortawesome/fontawesome-free": "^6.4.0",
+    "@headlessui/react": "^1.7.13",
+    "@mui/material": "^5.11.15",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "@twemoji/api": "^14.1.0",
+    "axios": "^0.27.2",
+    "bootstrap": "^5.2.3",
+    "dateformat": "^4.0.0",
+    "firebase": "^9.19.1",
+    "html-react-parser": "^1.4.5",
+    "mapbox-gl": "^2.14.1",
+    "maplibre-gl": "^2.1.9",
+    "moment": "^2.29.4",
+    "react": "^18.2.0",
+    "react-big-calendar": "^1.6.9",
+    "react-dom": "^18.2.0",
+    "react-map-gl": "^7.0.16",
+    "react-moment": "^1.1.3",
+    "react-redux": "^8.0.1",
+    "react-router-dom": "^6.4.0",
+    "react-scripts": "^5.0.1",
+    "react-validation": "^3.0.7",
+    "reaptcha": "^1.12.1",
+    "redux": "^4.2.0",
+    "redux-thunk": "^2.4.1",
+    "validator": "^13.7.0",
+    "web-vitals": "^2.1.4",
+    "websocket": "^1.0.34"
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "babel-jest": "26.6.0",
+    "gh-pages": "^5.0.0",
+    "jest": "26.6.0",
+    "jest-canvas-mock": "^2.3.1",
+    "redux-devtools-extension": "^2.13.8",
+    "web-vitals": "^3.0.4"
+  },
+  "jest": {
+    "moduleNameMapper": {
+      "\\.(css|scss|png|svg|pdf|jpg|jpeg|wav)$": "<rootDir>/src/resources/__mocks__/fileMock.js"
+    }
+  }
+}
